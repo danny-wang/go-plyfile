@@ -1,6 +1,6 @@
 all:
 	$(CC) -g -c -o plyfile.o plyfile.c
-	ar rcs libplyfile.so plyfile.o 
+	ar rcs libplyfile.a plyfile.o 
 bin:
 	$(CC) -g -o plytest plytest.c plyfile.c
 clean:
