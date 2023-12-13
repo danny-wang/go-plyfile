@@ -16,7 +16,7 @@ A very big thanks is owed to Greg Turk for releasing his original plyfile code. 
 
 ## Installation
 
-Run `go get github.com/alexbaden/go-plyfile`
+Run `go get github.com/danny-wang/go-plyfile`
 
 The install will fail with the following error:
 ```
