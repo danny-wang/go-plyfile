@@ -17,6 +17,7 @@ limitations under the License.
 package plyfile
 
 /*
+#cgo CFLAGS: -I./lib
 #cgo LDFLAGS: -L${SRCDIR}/lib -lplyfile
 #include <string.h>
 #include "lib/ply.h"
